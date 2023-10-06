@@ -1,33 +1,3 @@
-// var PMS = new Promise((resolveCallBack,rejectCallBack)=>{
-//     let a = false;
-//     if(a){
-//         resolveCallBack("rah dkhal l condition resolve")
-//     }else{
-//         rejectCallBack("dkhal reject")
-//     }
-// })
-
-// console.log(PMS);
-
-// let resolrver = (resoleValue) => console.log("lahoma barik nadi " + resoleValue); 
-// let rejecter = (rejectValue) => console.log("3iayn 3iyan " + rejectValue); 
-
-
-
-// const n = 0;
-// const arr = [1, 2, 3, 4, 5, 6, 7, 8,9];
-// var arr1 = [];
-// if(n != 0){
-//     while (arr.length > 0) {
-//         var arr2 = arr.splice(0, n);
-//         arr1.push(arr2);
-//     }
-//     console.log(arr1);
-// }else {
-//     console.log(arr);
-// }
-
-
 var str1 = "palce"
 var str2 ="pce"
 function check(str1, str2) {
@@ -67,7 +37,6 @@ function checkIfAdd(str1,str2) {
             index.push(i);
             console.log(`ajoute "${str1[i]}" l'indice "${i}"`);
             str2 = insertion(str2,i,str1[i]);
-            // console.log(str2);
             return str2;
         }else if (str1[i] != str2[i] && str1[i+1] != str2[i]) {
             str2[i] = str1[i];
